@@ -1,0 +1,15 @@
+amqp==2.1.4
+anyjson==0.3.3
+appdirs==1.4.0
+billiard==3.5.0.2
+celery==4.0.2
+Django==1.10.5
+kombu==4.0.2
+packaging==16.8
+psycopg2==2.6.2
+pyparsing==2.1.10
+pytz==2016.10
+-e git+http://github.com/rapidpro/rapidpro-python@116639ec74db4da65743e836314679668b485732#egg=rapidpro_python
+requests==2.13.0
+six==1.10.0
+vine==1.1.3

@@ -1,0 +1,11 @@
+
+<table style="text-align: center; border: solid 2px blue">
+    <tr><th>Group Name</th><th>Number of participants</th></tr>
+    {% for g in groups %}
+    <tr>
+        <td>{{ g.name }}</td>
+        <td>{{ g.number_of_contacts }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
